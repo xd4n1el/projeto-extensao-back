@@ -12,7 +12,7 @@ const app = express();
 const server = http.Server(app);
 
 const settings = {
-    origin: [ 'https://projeto-extensao-xd4n1el.web.app', 'https://projeto-extensao-xd4n1el.firebaseapp.com', 'http://localhost:3000',],
+    origin: [ 'https://projeto-extensao-xd4n1el.web.app', 'https://projeto-extensao-xd4n1el.firebaseapp.com',],
     optionsSuccessStatus: 200,
     methods: 'GET,POST'
 };
