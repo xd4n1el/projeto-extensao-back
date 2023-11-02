@@ -6,4 +6,4 @@ const options = {
   useUnifiedTopology: true,
 };
 
-mongoose.connect(uri, options);
+mongoose.connect(uri, options).then(() => console.log('connected to mongo'));
